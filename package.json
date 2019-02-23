@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/laravel-enso/confirmation.git"
+    "url": "git+https://github.com/enso-ui/confirmation.git"
   },
   "keywords": [
     "confirmation",
@@ -17,9 +17,9 @@
   "author": "Adrian Ocneanu <aocneanu@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/laravel-enso/confirmation/issues"
+    "url": "https://github.com/enso-ui/confirmation/issues"
   },
-  "homepage": "https://github.com/laravel-enso/confirmation#readme",
+  "homepage": "https://github.com/enso-ui/confirmation#readme",
   "devDependencies": {
     "@vue/eslint-config-airbnb": "^4.0.0",
     "babel-eslint": "^10.0.1",
