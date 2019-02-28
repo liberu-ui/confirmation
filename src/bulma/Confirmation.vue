@@ -1,5 +1,5 @@
 <template>
-    <base-confirmation v-bind="$attrs"
+    <core-confirmation v-bind="$attrs"
         v-on="$listeners">
         <template v-slot:default>
             <slot/>
@@ -20,18 +20,18 @@
                 </span>
             </a>
         </template>
-    </base-confirmation>
+    </core-confirmation>
 </template>
 
 <script>
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faCheck, faTimes } from '@fortawesome/free-solid-svg-icons';
-import BaseConfirmation from '../components/BaseConfirmation.vue';
+import CoreConfirmation from '../components/Confirmation.vue';
 
 library.add(faCheck, faTimes);
 
 export default {
-    components: { BaseConfirmation },
+    components: { CoreConfirmation },
 };
 </script>
