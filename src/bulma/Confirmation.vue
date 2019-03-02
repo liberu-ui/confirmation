@@ -24,7 +24,6 @@
 </template>
 
 <script>
-
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faCheck, faTimes } from '@fortawesome/free-solid-svg-icons';
 import CoreConfirmation from '../components/Confirmation.vue';
@@ -32,6 +31,8 @@ import CoreConfirmation from '../components/Confirmation.vue';
 library.add(faCheck, faTimes);
 
 export default {
+    name: 'Confirmation',
+
     components: { CoreConfirmation },
 };
 </script>
