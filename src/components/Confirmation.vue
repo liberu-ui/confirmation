@@ -13,10 +13,11 @@
 </template>
 
 <script>
-
 import { VPopover } from 'v-tooltip';
 
 export default {
+    name: 'CoreConfirmation',
+
     components: { VPopover },
 
     methods: {
@@ -33,5 +34,4 @@ export default {
         },
     },
 };
-
 </script>
