@@ -3,7 +3,7 @@
         v-on="$listeners"
         ref="dialog">
         <slot/>
-        <template slot="popover">
+        <template v-slot:popover>
             <slot name="confirm"
                 :confirm="confirm"/>
             <slot name="cancel"
