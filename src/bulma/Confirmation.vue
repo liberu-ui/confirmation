@@ -26,7 +26,7 @@
 <script>
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faCheck, faTimes } from '@fortawesome/free-solid-svg-icons';
-import CoreConfirmation from '../components/Confirmation.vue';
+import CoreConfirmation from '../components/CoreConfirmation.vue';
 
 library.add(faCheck, faTimes);
 

@@ -1,3 +1,3 @@
-import Confirmation from './src/components/Confirmation.vue';
+import CoreConfirmation from './src/components/CoreConfirmation.vue';
 
-export default Confirmation;
+export default CoreConfirmation;
