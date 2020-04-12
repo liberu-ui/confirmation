@@ -20,6 +20,14 @@
     "url": "https://github.com/enso-ui/confirmation/issues"
   },
   "homepage": "https://github.com/enso-ui/confirmation#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.2",
+    "@fortawesome/free-solid-svg-icons": "^5.2.0",
+    "@fortawesome/vue-fontawesome": "^0.1.1",
+    "bulma": "^0.8.0",
+    "v-tooltip": "^2.0.0",
+    "vue": "^2.5.16"
+  },
   "devDependencies": {
     "@babel/plugin-syntax-dynamic-import": "^7.2.0",
     "@vue/cli-plugin-babel": "^4.0.5",
@@ -32,14 +40,5 @@
     "eslint": "^6.8.0",
     "eslint-import-resolver-alias": "^1.1.2",
     "eslint-plugin-vue": "^6.0.0"
-  },
-  "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.2",
-    "@fortawesome/free-solid-svg-icons": "^5.2.0",
-    "@fortawesome/vue-fontawesome": "^0.1.1",
-    "bulma": "^0.8.0",
-    "tooltip.js": "^1.2.0",
-    "v-tooltip": "^2.0.0-rc.32",
-    "vue": "^2.5.16"
   }
 }
