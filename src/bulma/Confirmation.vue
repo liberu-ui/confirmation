@@ -6,7 +6,7 @@
             <slot/>
         </template>
         <template v-slot:confirm="{ confirm }">
-            <a class="button is-small is-success has-margin-right-medium"
+            <a class="button is-small is-success mr-2"
                 @click="confirm">
                 <span class="icon is-small">
                     <fa icon="check"/>
