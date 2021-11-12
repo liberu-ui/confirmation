@@ -1,6 +1,6 @@
 {
   "name": "@enso-ui/confirmation",
-  "version": "1.0.19",
+  "version": "2.0.0",
   "description": "A minimal confirmation dialog",
   "main": "index.js",
   "scripts": {
