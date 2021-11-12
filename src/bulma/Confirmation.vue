@@ -2,10 +2,10 @@
     <core-confirmation class="confirmation"
         v-bind="$attrs"
         v-on="$listeners">
-        <template v-slot:default>
+        <template #:default>
             <slot/>
         </template>
-        <template v-slot:confirm="{ confirm }">
+        <template #:confirm="{ confirm }">
             <a class="button is-small is-success mr-2"
                 @click="confirm">
                 <span class="icon is-small">
@@ -13,7 +13,7 @@
                 </span>
             </a>
         </template>
-        <template v-slot:cancel="{ cancel }">
+        <template #:cancel="{ cancel }">
             <a class="button is-small is-danger"
                 @click="cancel">
                 <span class="icon is-small">
