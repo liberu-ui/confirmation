@@ -1,9 +1,8 @@
 <template>
-    <dropdown v-bind="$attrs"
-        v-on="$listeners"
+    <dropdown v-bind="$attrs"   
         ref="dialog">
         <slot/>
-        <template #:popper>
+        <template #popper>
             <slot name="confirm"
                 :confirm="confirm"/>
             <slot name="cancel"
