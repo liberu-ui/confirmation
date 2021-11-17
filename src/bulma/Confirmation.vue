@@ -1,6 +1,6 @@
 <template>
     <core-confirmation class="confirmation"
-        v-bind="$attrs"   >
+        v-bind="$attrs">
         <template #default>
             <slot/>
         </template>
@@ -24,6 +24,7 @@
 </template>
 
 <script>
+import { FontAwesomeIcon as Fa } from '@fortawesome/vue-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faCheck, faTimes } from '@fortawesome/free-solid-svg-icons';
 import CoreConfirmation from '../components/CoreConfirmation.vue';
@@ -33,7 +34,7 @@ library.add(faCheck, faTimes);
 export default {
     name: 'Confirmation',
 
-    components: { CoreConfirmation },
+    components: { Fa, CoreConfirmation },
 };
 </script>
 
