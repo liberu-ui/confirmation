@@ -1,5 +1,5 @@
 <template>
-    <dropdown v-bind="$attrs"   
+    <dropdown v-bind="$attrs"
         ref="dialog">
         <slot/>
         <template #popper>
@@ -18,6 +18,10 @@ export default {
     name: 'CoreConfirmation',
 
     components: { Dropdown },
+
+    emits: ['cancel', 'confirm'],
+
+    inheritAttrs: false,
 
     methods: {
         hide() {
