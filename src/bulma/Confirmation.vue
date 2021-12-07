@@ -1,5 +1,5 @@
 <template>
-    <core-confirmation class="confirmation"
+    <core-confirmation
         v-bind="$attrs">
         <template #default>
             <slot/>
@@ -37,9 +37,3 @@ export default {
     components: { Fa, CoreConfirmation },
 };
 </script>
-
-<style lang="scss">
-    .confirmation > .trigger {
-        display: flex !important;
-    }
-</style>
