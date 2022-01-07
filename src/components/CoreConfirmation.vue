@@ -19,9 +19,9 @@ export default {
 
     components: { Dropdown },
 
-    emits: ['cancel', 'confirm'],
-
     inheritAttrs: false,
+
+    emits: ['cancel', 'confirm'],
 
     methods: {
         hide() {
