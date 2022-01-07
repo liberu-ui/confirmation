@@ -1,6 +1,5 @@
 <template>
-    <core-confirmation
-        v-bind="$attrs">
+    <core-confirmation>
         <template #default>
             <slot/>
         </template>
