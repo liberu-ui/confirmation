@@ -1,24 +1,27 @@
 <template>
-    <v-popover v-bind="$attrs"
-        v-on="$listeners"
+    <dropdown v-bind="$attrs"
         ref="dialog">
         <slot/>
-        <template v-slot:popover>
+        <template #popper>
             <slot name="confirm"
                 :confirm="confirm"/>
             <slot name="cancel"
                 :cancel="cancel"/>
         </template>
-    </v-popover>
+    </dropdown>
 </template>
 
 <script>
-import { VPopover } from 'v-tooltip';
+import { Dropdown } from 'v-tooltip';
 
 export default {
     name: 'CoreConfirmation',
 
-    components: { VPopover },
+    components: { Dropdown },
+
+    inheritAttrs: false,
+
+    emits: ['cancel', 'confirm'],
 
     methods: {
         hide() {
