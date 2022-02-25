@@ -1,6 +1,5 @@
 <template>
-    <dropdown v-bind="$attrs"
-        ref="dialog">
+    <dropdown ref="dialog">
         <slot/>
         <template #popper>
             <slot name="confirm"
@@ -24,16 +23,16 @@ export default {
     emits: ['cancel', 'confirm'],
 
     methods: {
-        hide() {
-            this.$refs.dialog.hide();
-        },
         cancel() {
-            this.hide();
             this.$emit('cancel');
+            this.hide();
         },
         confirm() {
-            this.hide();
             this.$emit('confirm');
+            this.hide();
+        },
+        hide() {
+            this.$refs.dialog.hide();
         },
     },
 };
