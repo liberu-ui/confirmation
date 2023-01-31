@@ -18,8 +18,6 @@ export default {
 
     components: { Dropdown },
 
-    inheritAttrs: false,
-
     emits: ['cancel', 'confirm'],
 
     methods: {
