@@ -1,5 +1,5 @@
 {
-  "name": "@cgdsoftware/confirmation",
+  "name": "@liberu-ui/confirmation",
   "version": "2.0.15",
   "description": "A minimal confirmation dialog",
   "main": "index.js",
