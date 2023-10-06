@@ -1,10 +1,10 @@
 # Confirmation
 
-![npm license](https://img.shields.io/npm/l/@enso-ui/confirmation.svg) 
-![npm download](https://img.shields.io/npm/dm/@enso-ui/confirmation.svg) 
-![GitHub top language](https://img.shields.io/github/languages/top/enso-ui/confirmation.svg) 
-![GitHub issues](https://img.shields.io/github/issues/enso-ui/confirmation.svg) 
-![npm version](https://img.shields.io/npm/v/@enso-ui/confirmation.svg) 
+![npm license](https://img.shields.io/npm/l/@liberu-ui/confirmation.svg) 
+![npm download](https://img.shields.io/npm/dm/@liberu-ui/confirmation.svg) 
+![GitHub top language](https://img.shields.io/github/languages/top/liberu-ui/confirmation.svg) 
+![GitHub issues](https://img.shields.io/github/issues/liberu-ui/confirmation.svg) 
+![npm version](https://img.shields.io/npm/v/@liberu-ui/confirmation.svg) 
 
 Minimalist confirmation dialog
 
